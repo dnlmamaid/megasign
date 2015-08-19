@@ -33,7 +33,7 @@
 <body>
 
 <!-- Outer Container -->
-<div id="outer-container">
+<div class="container">
 
 
 

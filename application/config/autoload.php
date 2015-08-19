@@ -60,7 +60,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
 
-$autoload['libraries'] = array('database', 'javascript', 'session', 'form_validation', 'pagination');
+$autoload['libraries'] = array('database', 'javascript', 'session', 'form_validation', 'pagination', 'ion_auth');
 
 
 /*
@@ -76,7 +76,7 @@ $autoload['libraries'] = array('database', 'javascript', 'session', 'form_valida
 |	$autoload['drivers'] = array('cache');
 */
 
-$autoload['drivers'] = array();
+$autoload['drivers'] = array('session');
 
 
 /*
@@ -88,7 +88,7 @@ $autoload['drivers'] = array();
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array('html', 'url', 'file', 'form', 'language');
+$autoload['helper'] = array('html', 'url', 'file', 'form', 'language', 'captcha');
 
 
 /*
